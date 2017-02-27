@@ -2,7 +2,7 @@
   "name": "ws-slider",
   "version": "0.0.1",
   "description": "wisite slider",
-  "main": "index.js",
+  "main": "./lib",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha --recursive -t 5000 --compilers js:babel-core/register",
     "start": "node ./mockServer/index.js",
