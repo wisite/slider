@@ -29,6 +29,8 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "lib"),
     filename: `[name].js`,
+    library: 'shared-components',
+    libraryTarget: 'umd',
   },
   module: {
     loaders: [{
