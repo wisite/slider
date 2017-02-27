@@ -24,7 +24,7 @@ if (!isDev) {
 
 module.exports = {
   entry: {
-    slider: './src',
+    index: './src',
   },
   output: {
     path: path.resolve(__dirname, "lib"),
