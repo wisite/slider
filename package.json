@@ -1,6 +1,6 @@
 {
   "name": "ws-slider",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "wisite slider",
   "main": "./lib",
   "scripts": {
