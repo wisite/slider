@@ -1,5 +1,4 @@
 import classnames from 'classnames';
-import './index.less';
 import SliderBlock from './SliderBlock';
 
 class Slider extends React.Component {
