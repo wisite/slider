@@ -34,7 +34,7 @@ class Slider extends React.Component {
         let style = {
           marginLeft: `${-1 * current * 100}vw`,
         };
-        return React.cloneElement(item, {style})
+        return React.cloneElement(item, {style, key: index})
       }
       return item;
     });
