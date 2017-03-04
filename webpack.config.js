@@ -72,8 +72,8 @@ module.exports = {
   resolve: {
     extensions: ['', '.js', 'jsx', 'less'],
   },
-  externals: {
+  /*externals: {
     react: 'let React',
     'react-dom': 'let ReactDOM',
-  },
+  },*/
 };
